@@ -18,7 +18,7 @@ function Header() {
       </div>
       <div className='p-10'>
         <p>Resources:</p>
-        <ul>
+        <ul className='list-disc'>
           <li>NASA Astronomy Picture of The Day (APOD) API. Explore more of their <a href='https://api.nasa.gov' className='text-blue-600 underline'>API</a>!</li>
           <li>Lorem Picsum - The Lorem Ipsum for photos. They are awesome! Check <a href='https://picsum.photos' className='text-blue-600 underline'>them</a> out!</li>
           <li>Styled with TailwindCSS</li>
