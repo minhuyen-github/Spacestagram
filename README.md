@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Spacestagram - Spotify Frontend Intership Summer 2022 Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spacestagram is a responsive website built with React.js. Beautifully designed to showcase a list of pictures and videos capturing our mesmerizing universe in each day of 2022! 
 
-## Available Scripts
+The list can be filter by selecting a specific date or a date range. You can also give kudos to the image/video, and read the explanation written by professional astronomers.
 
-In the project directory, you can run:
+[Live](https://minhuyen-github.github.io/Spacestagram)
 
-### `npm start`
+# Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I'm on the journey of learning and growing myself into a full stack engineer, so this challenge is a perfect opportunity for me to further improve my frontend skills since I'm more experienced on the backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+And it's a fun project to do :)
 
-### `npm test`
+# Techstack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- TailwindCSS 
+- JavaScript
 
-### `npm run build`
+# Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can either fork or clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`git clone https://github.com/minhuyen-github/Spacestagram.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate to the folder and install all dependecies using `npm`
 
-### `npm run eject`
+`cd Spacestagram`
+`npm i`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You're all set! You just need to run this command to view the website on `localhost`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm start`
