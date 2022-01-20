@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Feed from './components/feed/index';
+import Header from './components/header/index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex flex-col md:flex-col lg:flex-row justify-around w-screen mx-auto font-mono lg:divide-x-2 lg:divide-solid divide-y-2 divide-solid">
+      <Header />
+      <Feed />
     </div>
   );
 }
